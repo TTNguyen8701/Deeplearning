@@ -28,7 +28,7 @@ def char2bitarray(char):
 
     # bit_array = pad_array(bit_array, 4*8)
 
-    return bit_array
+    return bit_array 
 
 def preprocess(image, label):
     image = tf.transpose(image)
