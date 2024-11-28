@@ -8,11 +8,6 @@ import numpy as np
 import pandas as pd
 from CNN import CNN_Train, CNN_Test, CNN_ModelCreate, UpdateDatasetFromEmnist
 
-def bin2int(bit_array):
-    bit_string = ''.join(i.astype(str) for i in bit_array)  # "1011"
-    integer_value = int(bit_string, 2)           # Chuyển sang số nguyên
-    return integer_value
-
 def main():
     # UpdateDatasetFromEmnist()
 
