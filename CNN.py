@@ -74,8 +74,6 @@ def CNN_ModelCreate():
     # Lưu mô hình
     model.save('ModelDataset.keras')
 
-
-
 def CNN_Train(x_train, x_test, y_train, y_test):
     
     # Thêm chiều cho dữ liệu đầu vào
