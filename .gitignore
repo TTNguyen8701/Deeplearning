@@ -1,6 +1,9 @@
 # Bỏ qua file cụ thể
 example.txt
 dataset.npz
+test.txt
+output.txt
+
 
 # Bỏ qua tất cả file trong một thư mục
 temp_folder/
