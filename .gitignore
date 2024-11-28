@@ -1,0 +1,9 @@
+# Bỏ qua file cụ thể
+example.txt
+dataset.npz
+
+# Bỏ qua tất cả file trong một thư mục
+temp_folder/
+
+# Bỏ qua file có phần mở rộng cụ thể
+*.log
